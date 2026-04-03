@@ -8,7 +8,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-lates
+    runs-on: ubuntu-latest
     steps:
       - name: ssh 원격 명령
         uses: appleboy/ssh-action@master
